@@ -139,9 +139,5 @@ SCHED_FEAT(SCHEDTUNE_BOOST_HOLD_ALL, false)
 /*
  * UtilEstimation. Use estimated CPU utilization.
  */
-<<<<<<< HEAD
-SCHED_FEAT(UTIL_EST, false)
-=======
 SCHED_FEAT(UTIL_EST, true)
 SCHED_FEAT(UTIL_EST_FASTUP, true)
->>>>>>> 3b25f6dad8af... FROMLIST: sched/fair: util_est: fast ramp-up EWMA on utilization increases
